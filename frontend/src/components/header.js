@@ -25,7 +25,7 @@ export default function Header() {
           </li>
         </ul>
       </nav>
-
+      <input type="text" className="search" placeholder="search" />
       <img src={shoppingCart} alt="Carrinho de Compras" className="logoCart" />
     </Head>
   );
