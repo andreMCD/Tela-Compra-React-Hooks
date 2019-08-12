@@ -72,7 +72,6 @@ export const Head = styled.header`
     display: block;
     padding: 15px;
     cursor: pointer;
-    position: fixed;
     top: 10px;
     left: 0;
     z-index: 3;
