@@ -12,6 +12,4 @@ export const Main = styled.main`
   height: 100%;
   box-sizing: border-box;
   background: $corSecundaria;
-
-  border: 1px solid aqua;
 `;

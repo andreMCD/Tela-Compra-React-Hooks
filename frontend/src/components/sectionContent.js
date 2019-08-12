@@ -2,10 +2,12 @@ import React from "react";
 
 import { Content } from "../style/content";
 
-export default function Content() {
+import ImagesCarrosel from "../objects/imagesCarrosel";
+
+export default function sectionContent() {
   return (
     <Content>
-      <h1 />
+      <ImagesCarrosel />
     </Content>
   );
 }
