@@ -14,7 +14,6 @@ export const Vistos = styled.section`
     display: flex;
     flex-flow: column;
 
-    border: 1px solid lime;
     > li {
       display: flex;
       background: #9f9f9f;
