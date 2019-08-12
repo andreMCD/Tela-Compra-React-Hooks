@@ -4,13 +4,14 @@ import Header from "../components/header";
 import Content from "../components/sectionContent";
 
 import { Main } from "./styles";
+import Footer from "../components/footer";
 
 export default function Container() {
   return (
     <Main>
       <Header />
-      <h1>Agência N1 - Compras</h1>
       <Content />
+      <Footer />
     </Main>
   );
 }
