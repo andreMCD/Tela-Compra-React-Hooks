@@ -13,27 +13,33 @@ export default function BoxVistos() {
       <ul>
         <li>
           <img src={doctorStranger} alt="doctor stranger" />
-          <h2>Nome do action figure</h2>
-          <p>de R$ xxx.xx</p>
-          <p>
-            por R$ <strong>xxx.xx</strong>
-          </p>
+          <div className="dados-box">
+            <h2>Nome do action figure</h2>
+            <p>de R$ 90,60</p>
+            <p>
+              por R$ <strong>169,90</strong>
+            </p>
+          </div>
         </li>
         <li>
           <img src={superMario} alt="Super Mario" />
-          <h2>Nome do action figure</h2>
-          <p>de R$ xxx.xx</p>
-          <p>
-            por R$ <strong>xxx.xx</strong>
-          </p>
+          <div className="dados-box">
+            <h2>Nome do action figure</h2>
+            <p>de R$ 159,50</p>
+            <p>
+              por R$ <strong>189,90</strong>
+            </p>
+          </div>
         </li>
         <li>
           <img src={ryu} alt="Ryu do street fight" />
-          <h2>Nome do action figure</h2>
-          <p>de R$ xxx.xx</p>
-          <p>
-            por R$ <strong>xxx.xx</strong>
-          </p>
+          <div className="dados-box">
+            <h2>Nome do action figure</h2>
+            <p>de R$ 119,90</p>
+            <p>
+              por R$ <strong>139,90</strong>
+            </p>
+          </div>
         </li>
       </ul>
     </Vistos>

@@ -17,12 +17,37 @@ export const Vistos = styled.section`
     border: 1px solid lime;
     > li {
       display: flex;
-      background: gray;
+      background: #9f9f9f;
       margin: 0 0 10px 0;
+      padding: 5px;
 
       > img {
         width: 80px;
         height: 80px;
+      }
+      > .dados-box {
+        padding: 5px;
+
+        > h2 {
+          font-family: "Raleway", sans-serif;
+          color: gray;
+          font-size: 0.8rem;
+          font-weight: bold;
+          margin-bottom: 10px;
+          width: 100%;
+        }
+        > p {
+          margin: 0 0 5px 0;
+          font-size: 0.8rem;
+          color: gray;
+          font-family: "Raleway", sans-serif;
+
+          > strong {
+            color: rgb(78, 194, 221);
+            font-size: 1.5rem;
+            font-weight: bold;
+          }
+        }
       }
     }
   }
