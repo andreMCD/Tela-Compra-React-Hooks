@@ -5,6 +5,7 @@ import { Content } from "../style/content";
 import ImagesCarrosel from "../objects/imagesCarrosel";
 import BoxProduto from "../objects/contentProduto";
 import BoxDescription from "../objects/contentDescription";
+import BoxVistos from "../objects/contentVistos";
 
 export default function sectionContent() {
   return (
@@ -12,6 +13,7 @@ export default function sectionContent() {
       <ImagesCarrosel />
       <BoxProduto />
       <BoxDescription />
+      <BoxVistos />
     </Content>
   );
 }
