@@ -4,8 +4,6 @@ export const Description = styled.aside`
   margin: 10px 0 0 0;
   padding: 10px 10px;
 
-  border: 1px solid lime;
-
   > h1 {
     font-family: "Raleway", sans-serif;
     color: gray;
@@ -18,5 +16,6 @@ export const Description = styled.aside`
     font-size: 0.8rem;
     color: gray;
     font-family: "Raleway", sans-serif;
+    line-height: 1.2rem;
   }
 `;
