@@ -6,7 +6,6 @@ export const Content = styled.section`
   display: flex;
   flex-flow: column;
   position: relative;
-  padding: 10px 0;
+  padding: 20px 0;
   margin: 0 auto;
-  border: 1px solid orange;
 `;
