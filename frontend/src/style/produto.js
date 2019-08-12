@@ -4,8 +4,6 @@ export const Produto = styled.section`
   margin: 10px 0 0 0;
   padding: 10px 10px;
 
-  border: 1px solid lime;
-
   > h1 {
     font-family: "Raleway", sans-serif;
     color: gray;
