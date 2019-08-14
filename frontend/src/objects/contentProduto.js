@@ -12,6 +12,9 @@ export default function BoxProduto() {
           por: <strong>R$ 149,90</strong>
         </p>
         <button type="button">Comprar</button>
+        <button type="button" className="cart">
+          Add ao Carrinho
+        </button>
       </div>
       <div className="boxFrete">
         <h2>Calcule o frete</h2>

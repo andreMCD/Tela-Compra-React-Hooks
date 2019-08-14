@@ -44,6 +44,9 @@ export const Produto = styled.section`
       box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
       cursor: pointer;
     }
+    > .cart {
+      background: rgb(78, 194, 221);
+    }
   }
   > .boxFrete {
     background: rgb(78, 194, 221);
@@ -76,6 +79,7 @@ export const Produto = styled.section`
     > .lastChild {
       width: 50px;
     }
+
     > button {
       background: rgb(15, 65, 86);
       border: none;
