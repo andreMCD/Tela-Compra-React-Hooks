@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
 export const Description = styled.aside`
-  margin: 10px 0 0 0;
-  padding: 10px 10px;
+  margin: 30px 0 0 0;
+  padding: 20px 20px;
+  grid-area: description;
 
   > h1 {
     font-family: "Raleway", sans-serif;
@@ -12,10 +13,12 @@ export const Description = styled.aside`
     text-align: center;
   }
   > p {
-    margin: 10px 0;
+    margin: 10px auto;
     font-size: 0.8rem;
     color: gray;
     font-family: "Raleway", sans-serif;
     line-height: 1.2rem;
+    text-align: justify;
+    max-width: 700px;
   }
 `;

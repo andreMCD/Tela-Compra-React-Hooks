@@ -2,7 +2,8 @@ import styled from "styled-components";
 
 export const Produto = styled.section`
   margin: 10px 0 0 0;
-  padding: 10px 10px;
+  padding: 0 10px;
+  grid-area: produto;
 
   > h1 {
     font-family: "Raleway", sans-serif;
@@ -11,11 +12,12 @@ export const Produto = styled.section`
     margin-bottom: 10px;
   }
   > .boxPreco {
-    background: #9f9f9f;
+    background: rgb(207, 207, 207);
     border: none;
     border-radius: 10px;
     margin: 10px 0;
     padding: 10px 10px;
+    max-width: 320px;
 
     > p {
       margin: 10px 0;
@@ -51,6 +53,8 @@ export const Produto = styled.section`
     padding: 10px 10px;
     display: flex;
     flex-wrap: wrap;
+    max-width: 300px;
+
     > h2 {
       font-family: "Raleway", sans-serif;
       color: #fff;
@@ -73,7 +77,7 @@ export const Produto = styled.section`
       width: 50px;
     }
     > button {
-      background: darkslateblue;
+      background: rgb(15, 65, 86);
       border: none;
       border-radius: 5px;
       color: #fff;

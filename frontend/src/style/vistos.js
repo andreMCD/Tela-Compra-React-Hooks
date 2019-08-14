@@ -3,6 +3,8 @@ import styled from "styled-components";
 export const Vistos = styled.section`
   margin: 10px 0 0 0;
   padding: 10px 10px;
+  grid-area: vistos;
+
   > h1 {
     font-family: "Raleway", sans-serif;
     color: gray;
@@ -16,7 +18,7 @@ export const Vistos = styled.section`
 
     > li {
       display: flex;
-      background: #9f9f9f;
+      background: rgb(207, 207, 207);
       margin: 0 0 10px 0;
       padding: 5px;
 
@@ -45,6 +47,41 @@ export const Vistos = styled.section`
             color: rgb(78, 194, 221);
             font-size: 1.5rem;
             font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+  @media (min-width: 600px), (orientarion: landscape) {
+    margin: 10px auto 0 auto;
+
+    > ul {
+      display: flex;
+      flex-flow: row;
+
+      > li {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        background: rgb(207, 207, 207);
+        margin: 0 5px 10px 5px;
+        padding: 5px 5px 20px 5px;
+
+        > img {
+          width: 150px;
+          height: 150px;
+        }
+
+        > .dados-box {
+          padding: 5px;
+
+          > h2 {
+            font-family: "Raleway", sans-serif;
+            color: gray;
+            font-size: 0.8rem;
+            font-weight: bold;
+            margin: 10px 0 20px 0;
+            width: 100%;
           }
         }
       }

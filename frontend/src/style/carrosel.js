@@ -2,14 +2,16 @@ import styled from "styled-components";
 
 export const Carrosel = styled.div`
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  grid-area: carrosel;
 
   > ul {
     display: flex;
     flex-flow: column;
-    justify-content: space-between;
+    justify-content: initial;
     list-style: none;
     width: 15%;
+    padding: 0 10px 0 0;
 
     > li {
       margin: 0 0 5px 0;
@@ -17,7 +19,7 @@ export const Carrosel = styled.div`
       > img {
         width: 50px;
         height: 50px;
-        border: 1px solid gray;
+        border: 1px solid rgb(207, 207, 207);
       }
     }
   }
@@ -26,9 +28,8 @@ export const Carrosel = styled.div`
     margin: 0;
 
     > img {
-      width: 200px;
-      height: 200px;
-      border: 1px solid gray;
+      width: 100%;
+      border: 1px solid rgb(207, 207, 207);
     }
   }
 `;
