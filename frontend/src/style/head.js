@@ -20,11 +20,26 @@ export const Head = styled.header`
     margin: 13px 0 0 -20px;
     cursor: pointer;
   }
-  > .logoCart {
+  > .boxCart {
     order: 4;
-    height: 30px;
-    margin: 10px 0 0 0;
-    padding-left: 10px;
+    position: relative;
+    margin: 15px 0 0 0;
+
+    > .logoCart {
+      height: 25px;
+    }
+    > .countCart {
+      position: absolute;
+      top: -10px;
+      right: -6px;
+      display: block;
+      width: 20px;
+      height: 20px;
+      border: none;
+      border-radius: 50%;
+      background: rgb(78, 194, 221);
+      color: rgb(255, 255, 255);
+    }
   }
 
   @media (max-width: 599px) {
@@ -223,7 +238,7 @@ export const Head = styled.header`
     > .lupaSearch {
       display: none;
     }
-    > .logoCart {
+    > .boxCart {
       order: 4;
       height: 30px;
       margin: 10px 0 0 0;

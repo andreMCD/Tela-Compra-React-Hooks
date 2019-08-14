@@ -35,7 +35,14 @@ export default function Header() {
       </div>
       <img src={lupaSearch} alt="Lupa pesquisar" className="lupaSearch" />
       <input type="text" className="search" placeholder="search" />
-      <img src={shoppingCart} alt="Carrinho de Compras" className="logoCart" />
+      <div className="boxCart">
+        <img
+          src={shoppingCart}
+          alt="Carrinho de Compras"
+          className="logoCart"
+        />
+        <span className="countCart" />
+      </div>
     </Head>
   );
 }
