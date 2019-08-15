@@ -24,8 +24,8 @@ Acesse a pagina no link: http://localhost:3000
 
 ### Ultrapassando a concorrência - Nível Pleno
 
-- [ ] Observe que no layout existe um modal(Quick cart) de sucesso da compra. Ele deve aparecer quando clicar no botão de comprar;
-- [ ] **PLUS:** Junto com a ação de exibição do modal atualize a quantidade de itens no carrinho presente no header;
+- [] Observe que no layout existe um modal(Quick cart) de sucesso da compra. Ele deve aparecer quando clicar no botão de comprar;
+- [x] **PLUS:** Junto com a ação de exibição do modal atualize a quantidade de itens no carrinho presente no header;
 
 ### Garantindo a vaga - Nível CHEFÃO
 
