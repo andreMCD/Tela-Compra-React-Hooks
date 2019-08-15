@@ -6,7 +6,7 @@ import lupaSearch from "../assets/search.svg";
 
 import { Head } from "../style/head";
 
-export default function Header() {
+export default function Header({ count, updateCount }) {
   return (
     <Head>
       <img src={logo} alt="Agência N1" className="logo" />
@@ -41,7 +41,7 @@ export default function Header() {
           alt="Carrinho de Compras"
           className="logoCart"
         />
-        <span className="countCart" />
+        <span className="countCart">{count}</span>
       </div>
     </Head>
   );

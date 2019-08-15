@@ -32,13 +32,17 @@ export const Head = styled.header`
       position: absolute;
       top: -10px;
       right: -6px;
-      display: block;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       width: 20px;
       height: 20px;
       border: none;
       border-radius: 50%;
       background: rgb(78, 194, 221);
       color: rgb(255, 255, 255);
+      font-size: 0.8rem;
+      font-weight: bold;
     }
   }
 
