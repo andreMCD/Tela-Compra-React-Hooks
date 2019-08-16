@@ -15,8 +15,10 @@ export const Modal = styled.section`
     display: flex;
     flex-flow: column;
     justify-content: center;
-    position: relative;
+    position: absolute;
     top: 15%;
+    left:50%;
+    transform:translate(-50%, -15%);
     max-width: 200px;
     max-height: 200px;
     width: 50%;
